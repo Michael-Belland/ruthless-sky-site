@@ -1,0 +1,65 @@
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+aside{
+    background-color: rgba(55, 55, 55, 1);
+    background-image: linear-gradient(to right, rgba(255,255,255,0.1), rgba(55, 55, 55, 1));
+
+    border: 1px solid black;
+    min-height: 10rem;
+    border-radius: 0rem 30rem;
+    margin-bottom: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+@media only screen and (max-width: 60rem){
+    aside{
+        border-radius: 0;
+        padding: 1rem;
+    }
+}
+
+section form{
+    text-align: left;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#submit{
+    background-color: white;
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0 3rem;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+form h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+form * {
+    padding: 0.5rem;
+}
+
+section img {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+}
