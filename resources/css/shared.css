@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Orbitron&display=swap');
+
+/* header section */
+header{
+    background-color: black;
+    background-image: url("../images/pexels-aleksandar-pasaric-1694000.jpg");
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* TODO: add CSS-media queries to improve behavior on small screens */
+.jumbotron {
+    /*width: 40rem;*/
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    background-color: black;
+    width: 100%;
+}
+
+li {
+    padding: 1rem;
+
+    width: 10rem;
+    background-color: rgba(55, 55, 55, 1);
+    border: 2px solid black;
+    border-radius: 0rem 3rem;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main sections in page-specific css files */
+main {
+    height: 1000px;
+}
+
+/* footer section */
+
+footer {
+    background-color: rgba(55, 55, 55, 1);
+    color: white;
+
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    line-height: 2.0;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
