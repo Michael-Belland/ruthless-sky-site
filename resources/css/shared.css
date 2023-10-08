@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@0;1&display=swap');
 
 /* header section */
 header{
@@ -103,4 +103,10 @@ footer {
 
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+/* misc section */
+
+i {
+    font-style: italic;
 }
