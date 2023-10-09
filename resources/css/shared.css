@@ -107,6 +107,6 @@ footer {
 
 /* misc section */
 
-i {
+i, cite {
     font-style: italic;
 }
