@@ -1,61 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Noto+Sans&display=swap');
 section {
     width: 80%;
     margin: 0 auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
-section h2 {
-    font-family: 'Lora', serif;
+article {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+article h4 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
     font-size: 2.5rem;
-    text-transform: uppercase;
-    padding-bottom: 0.75rem;
-}
-
-section h2 a {
-    color: inherit;
-    text-decoration: none;
-}
-
-section h3{
-    display: none;
-    font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
-    padding-bottom: 1rem;
-}
-
-section h3 a{
-    color: gray;
-    text-transform: uppercase;
-}
-
-section h4{
-    font-family: 'Lora', serif;
-    font-size: 1.5rem;
-    font-style: italic;
+    line-height: 1.25;
     padding-bottom: 1.5rem;
+    
 }
 
-section article > p {
-    text-align: justify;
-    line-height: 1.5;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-family: 'Noto Sans', sans-serif;
-    vertical-align: top;
+article h2 {
+    text-align: right;
+    font-size: 2rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.5rem;
 }
 
-section article p:first-child::first-letter {
-    font-size: 3rem;
-    float:left;
-    padding: 0.5rem;
-    font-family: 'Lora', serif;
-    line-height: 1;
+article p {
+    text-align: right;
+    color: gray;
+    padding-right: 0.5rem;
 }
 
-hr {
-    border: 0;
-    border-top: 1px solid lightgray;
+.odd-light{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.odd-light h4 {
+    color: default;
+}
+
+.odd-light h2 {
+    color: default;
+}
+
+.odd-light p {
+    color: gray;
+}
+
+.even-dark {
+    background-color: rgba(55, 55, 55, 1);
+    border-radius: 0rem 3rem;
+}
+
+.even-dark h4 {
+    color: white;
+}
+
+.even-dark h2 {
+    color: white;
+}
+
+.even-dark p {
+    color: gray;
+}
+
+#img-container{
+    margin-bottom: 2rem;
+}
+
+article img{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 60rem;
+    height: auto;
+    border-radius: 0rem 3rem;
+
+    border: 0.5rem solid rgba(55, 55, 55, 1);
+}
+
+
+@media only screen and (min-width: 60rem){
+    #img-container{
+        background-color: rgba(55, 55, 55, 1);
+        border-radius: 0rem 3rem;
+    }
+
+    article img{
+        width: 90%;
+        border: 0;
+    }
 }
