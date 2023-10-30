@@ -41,11 +41,11 @@ article p {
 }
 
 .odd-light h4 {
-    color: default;
+    color: inherit;
 }
 
 .odd-light h2 {
-    color: default;
+    color: inherit;
 }
 
 .odd-light p {
