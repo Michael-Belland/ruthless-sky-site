@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+article {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+article h2 {
+    font-size: 3rem;
+    color: black;
+    font-family: 'Orbitron', 'Alegreya Sans SC', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.link {
+    font-family: 'Roboto Mono', monospace;
+    color: blue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+article p {
+    line-height: 1.25;
+}
